@@ -206,8 +206,13 @@ SECTION NAVIGATION
   margin-bottom: 15px;
 }
 
+.row .card-item:last-child {
+  margin-right: 0;
+}
+
 .card-item a h2 {
   margin-top: 0;
+  margin-bottom: 0;
 
   font-size: 64px;
   line-height: 1;
