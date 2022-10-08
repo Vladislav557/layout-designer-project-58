@@ -1,8 +1,8 @@
 /** CSS STYLE **/
 :root {
-
-  /*COLORS*/
-
+  /*
+  COLORS
+  */
   --color-white: #fff;
   --color-white-translucent: #d7ccc0;
   --color-light: #f5f4f0;
@@ -12,40 +12,46 @@
   --color-dark-translucent: #908d8b;
   --color-brown: #b09a81;
   --color-blue: #1085c5;
-
 }
 
 @font-face {
   font-weight: 400;
-  font-family: 'Open Sans';
-  src: url('../assets/fonts/OpenSans-Regular.ttf');
+  font-family: "Open Sans";
+  src: url("../assets/fonts/OpenSans-Regular.ttf");
 }
+
 @font-face {
   font-weight: 700;
-  font-family: 'Open Sans';
-  src: url('../assets/fonts/OpenSans-Bold.ttf');
+  font-family: "Open Sans";
+  src: url("../assets/fonts/OpenSans-Bold.ttf");
 }
+
 @font-face {
   font-weight: 400;
-  font-family: 'Neucha';
-  src: url('../assets/fonts/Neucha-Regular.ttf');
+  font-family: Neucha;
+  src: url("../assets/fonts/Neucha-Regular.ttf");
 }
 
-/*Base stles*/
+/*
+BASE STYLES
+*/
 
 body {
-  margin: 0;
-  padding: 0;
   position: relative;
 
-  font: 16px/1.6em 'Open Sans';
+  margin: 0;
+  padding: 0;
+
   color: var(--color-dark);
+  font-size: 16px;
+  font-family: "Open Sans", serif;
+  line-height: 1.6em;
 }
 
 h1,
 h2,
 h3 {
-  font-family: 'Neucha';
+  font-family: Neucha, serif;
   line-height: 1.2em;
 }
 
@@ -67,25 +73,27 @@ h3 {
 }
 
 body::before {
-  content: '';
-  display: block;
-
   position: absolute;
   top: 0;
   left: 0;
   z-index: -200;
 
+  display: block;
   width: 100%;
   height: 915px;
 
-  background-image: url('../assets/images/background.png');
+  background-color: var(--color-brown);
+  background-image: url("../assets/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: var(--color-brown);
-  opacity: .1;
+  opacity: 0.1;
+
+  content: "";
 }
 
-/*HEADER*/
+/*
+HEADER
+*/
 
 header {
   padding-top: 100px;
@@ -105,11 +113,12 @@ header h1 {
 }
 
 .header-img {
-  height: 525px;
   position: absolute;
   top: -90px;
   right: -270px;
   z-index: -100;
+
+  height: 525px;
 }
 
 .columns-2 {
@@ -117,14 +126,14 @@ header h1 {
   column-gap: 30px;
 }
 
-.columns-2 p:first-child {
-  margin-top: 0;
-  margin-bottom: 70px;
-}
-
 .columns-2 p {
   padding: 0;
   break-inside: avoid;
+}
+
+.columns-2 p:first-child {
+  margin-top: 0;
+  margin-bottom: 70px;
 }
 
 .mt-2 {
@@ -133,13 +142,12 @@ header h1 {
 
 .btn {
   display: inline-block;
-
-  text-decoration: none;
-
   padding: 12px 24px;
 
-  font-weight: bold;
   color: var(--color-white);
+  font-weight: bold;
+  text-decoration: none;
+
   cursor: pointer;
 }
 
@@ -151,11 +159,13 @@ header h1 {
   text-transform: uppercase;
 }
 
-/*SECTION COGNITINVE-DISTORTIONS*/
-
+/*
+SECTION COGNITINVE-DISTORTIONS
+*/
 
 .cognitive-distortions {
   padding-bottom: 100px;
+
   text-align: center;
 }
 
@@ -164,11 +174,14 @@ header h1 {
 }
 
 .video {
-  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   margin-bottom: -200px;
+
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-/*SECTION NAVIGATION*/
+/*
+SECTION NAVIGATION
+*/
 
 .navigation {
   padding-top: 200px;
@@ -187,14 +200,15 @@ header h1 {
 }
 
 .card-item {
-  margin-right: 20px;
-  margin-bottom: 15px;
   width: 100%;
   height: 100%;
+  margin-right: 20px;
+  margin-bottom: 15px;
 }
 
 .card-item a h2 {
   margin-top: 0;
+
   font-size: 64px;
   line-height: 1;
 }
@@ -202,20 +216,18 @@ header h1 {
 .card-title {
   margin: 0;
   padding: 0;
-  font-size: 52px;
-  font-weight: 400;
+
   color: var(--color-light);
+  font-weight: 400;
+  font-size: 52px;
 }
 
 .card-item a {
   display: block;
-  
   height: 323px;
-
   padding: 24px;
 
-  text-decoration: none;
-
-  background-color: var(--color-light);
   color: var(--color-base-dark);
+  text-decoration: none;
+  background-color: var(--color-light);
 }
