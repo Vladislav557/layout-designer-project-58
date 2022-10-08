@@ -61,11 +61,9 @@ h3 {
   font-size: 34px;
 }
 
-.center {
+.wrapper {
   width: 1110px;
   margin: 0 auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 body::before {
@@ -90,6 +88,11 @@ body::before {
 /*HEADER*/
 
 header {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.header-title {
   position: relative;
 }
 
@@ -104,7 +107,7 @@ header h1 {
 .header-img {
   height: 525px;
   position: absolute;
-  top: 55px;
+  top: -90px;
   right: -270px;
   z-index: -100;
 }
@@ -152,8 +155,12 @@ header h1 {
 
 
 .cognitive-distortions {
-  margin-top: -100px;
+  padding-bottom: 100px;
   text-align: center;
+}
+
+.card-title {
+  color: var(--color-light);
 }
 
 .cognitive-distortions h1 {
@@ -162,4 +169,55 @@ header h1 {
 
 .video {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+/*SECTION NAVIGATION*/
+
+.navigation {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  background-color: var(--color-base-dark);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+}
+
+.card-item {
+  margin-right: 20px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.card-item a h2 {
+  margin-top: 0;
+  font-size: 64px;
+  line-height: 1;
+}
+
+.card-title {
+  margin: 0;
+  padding: 0;
+  font-size: 52px;
+  font-weight: 400;
+}
+
+.card-item a {
+  display: block;
+  
+  height: 323px;
+
+  padding: 24px;
+
+  text-decoration: none;
+
+  background-color: var(--color-light);
+  color: var(--color-base-dark);
 }
