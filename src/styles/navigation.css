@@ -1,0 +1,51 @@
+/*
+SECTION NAVIGATION
+*/
+
+.navigation {
+  padding-top: 100px;
+
+  background-color: var(--color-base-dark);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+}
+
+.card-item {
+  width: 100%;
+  height: 100%;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.row .card-item:last-child {
+  margin-right: 0;
+}
+
+.card-item a h2 {
+  font-size: 64px;
+  line-height: 1;
+}
+
+.card-title {
+  color: var(--color-light);
+  font-weight: 400;
+  font-size: 52px;
+}
+
+.card-item a {
+  display: block;
+  height: 323px;
+  padding: 24px;
+
+  color: var(--color-base-dark);
+  text-decoration: none;
+
+  background-color: var(--color-light);
+}

@@ -1,18 +1,10 @@
 /** CSS STYLE **/
-:root {
-  /*
-  COLORS
-  */
-  --color-white: #fff;
-  --color-white-translucent: #d7ccc0;
-  --color-light: #f5f4f0;
-  --color-base: #fe8a02;
-  --color-base-dark: #42413c;
-  --color-dark: #2a2626;
-  --color-dark-translucent: #908d8b;
-  --color-brown: #b09a81;
-  --color-blue: #1085c5;
-}
+@import url("./header.css");
+@import url("./cognitive.css");
+@import url("./navigation.css");
+@import url("./ikea.css");
+@import url("./variables.css");
+@import url("./utils.css");
 
 @font-face {
   font-weight: 400;
@@ -36,11 +28,14 @@
 BASE STYLES
 */
 
-body {
-  position: relative;
-
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  position: relative;
 
   color: var(--color-dark);
   font-size: 16px;
@@ -65,174 +60,4 @@ h2 {
 
 h3 {
   font-size: 34px;
-}
-
-.wrapper {
-  width: 1110px;
-  margin: 0 auto;
-}
-
-body::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -200;
-
-  display: block;
-  width: 100%;
-  height: 915px;
-
-  background-color: var(--color-brown);
-  background-image: url("../assets/images/background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.1;
-
-  content: "";
-}
-
-/*
-HEADER
-*/
-
-header {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.header-title {
-  position: relative;
-}
-
-header h1 {
-  margin-bottom: 150px;
-}
-
-.yellow {
-  color: var(--color-base);
-}
-
-.header-img {
-  position: absolute;
-  top: -90px;
-  right: -270px;
-  z-index: -100;
-
-  height: 525px;
-}
-
-.columns-2 {
-  column-count: 2;
-  column-gap: 30px;
-}
-
-.columns-2 p {
-  padding: 0;
-  break-inside: avoid;
-}
-
-.columns-2 p:first-child {
-  margin-top: 0;
-  margin-bottom: 70px;
-}
-
-.mt-2 {
-  margin-top: 2rem;
-}
-
-.btn {
-  display: inline-block;
-  padding: 12px 24px;
-
-  color: var(--color-white);
-  font-weight: bold;
-  text-decoration: none;
-
-  cursor: pointer;
-}
-
-.bg-yellow {
-  background-color: var(--color-base);
-}
-
-.font-upper {
-  text-transform: uppercase;
-}
-
-/*
-SECTION COGNITINVE-DISTORTIONS
-*/
-
-.cognitive-distortions {
-  padding-bottom: 100px;
-
-  text-align: center;
-}
-
-.cognitive-distortions h1 {
-  margin-bottom: 30px;
-}
-
-.video {
-  margin-bottom: -200px;
-
-  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
-}
-
-/*
-SECTION NAVIGATION
-*/
-
-.navigation {
-  padding-top: 200px;
-  padding-bottom: 100px;
-
-  background-color: var(--color-base-dark);
-}
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.row {
-  display: flex;
-}
-
-.card-item {
-  width: 100%;
-  height: 100%;
-  margin-right: 20px;
-  margin-bottom: 15px;
-}
-
-.row .card-item:last-child {
-  margin-right: 0;
-}
-
-.card-item a h2 {
-  margin-top: 0;
-  margin-bottom: 0;
-
-  font-size: 64px;
-  line-height: 1;
-}
-
-.card-title {
-  margin: 0;
-  padding: 0;
-
-  color: var(--color-light);
-  font-weight: 400;
-  font-size: 52px;
-}
-
-.card-item a {
-  display: block;
-  height: 323px;
-  padding: 24px;
-
-  color: var(--color-base-dark);
-  text-decoration: none;
-  background-color: var(--color-light);
 }
