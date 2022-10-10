@@ -10,6 +10,7 @@
 
 .hyperbolic-depreciation .chapter h2 + b {
     color: var(--color-white);
+    padding-right: 20px;
 }
 
 .hyperbolic-depreciation .section-title img {
