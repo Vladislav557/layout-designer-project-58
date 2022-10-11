@@ -25,7 +25,7 @@ SECTION NAVIGATION
 }
 
 .card-item h3 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .row .card-item:last-child {
@@ -34,6 +34,8 @@ SECTION NAVIGATION
 
 .card-item a h2 {
   font-size: 64px;
+  font-weight: 400;
+  margin-bottom: 20px;
   line-height: 1;
 }
 
