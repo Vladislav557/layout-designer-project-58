@@ -11,8 +11,8 @@ SECTION COGNITINVE-DISTORTIONS
 .cognitive-distortions h1 {
   margin-bottom: 30px;
 
-  font-weight: 400;
   font-size: 60px;
+  font-weight: 400;
 }
 
 .channel-block p {
@@ -23,7 +23,7 @@ SECTION COGNITINVE-DISTORTIONS
 }
 
 .video {
-  margin-bottom: -190px;
+  margin-bottom: -200px;
 
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
