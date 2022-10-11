@@ -1,26 +1,29 @@
 .premature-optimization {
-    position: relative;
-    background: var(--color-brown);
-    color: var(--color-white);
+  position: relative;
+
+  color: var(--color-white);
+
+  background: var(--color-brown);
 }
 
 .premature-optimization.bg-image {
-    z-index: 100;
-}
-
-.premature-optimization .chapter h2 + b {
-    color: var(--color-white);
-}
-
-.premature-optimization .section-title img {
-    margin-right: 0;
+  z-index: 100;
 }
 
 .premature-optimization .chapter b {
-    color: var(--color-white-translucent);
+  color: var(--color-white-translucent);
+}
+
+.premature-optimization .chapter h2 + b {
+  color: var(--color-white);
+}
+
+.premature-optimization .section-title img {
+  margin-right: 0;
 }
 
 .premature-optimization .simptoms h3 {
-    color: var(--color-brown);
-    background-color: var(--color-white);
+  color: var(--color-brown);
+
+  background-color: var(--color-white);
 }

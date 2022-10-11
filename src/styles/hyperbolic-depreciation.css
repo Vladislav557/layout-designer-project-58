@@ -1,27 +1,31 @@
 .hyperbolic-depreciation {
-    position: relative;
-    background: var(--color-brown);
-    color: var(--color-white);
+  position: relative;
+
+  color: var(--color-white);
+
+  background: var(--color-brown);
 }
 
 .hyperbolic-depreciation.bg-image {
-    z-index: -200;
-}
-
-.hyperbolic-depreciation .chapter h2 + b {
-    color: var(--color-white);
-    padding-right: 20px;
-}
-
-.hyperbolic-depreciation .section-title img {
-    margin-right: 0;
+  z-index: -200;
 }
 
 .hyperbolic-depreciation .chapter b {
-    color: var(--color-white-translucent);
+  color: var(--color-white-translucent);
+}
+
+.hyperbolic-depreciation .chapter h2 + b {
+  padding-right: 20px;
+
+  color: var(--color-white);
+}
+
+.hyperbolic-depreciation .section-title img {
+  margin-right: 0;
 }
 
 .hyperbolic-depreciation .simptoms h3 {
-    color: var(--color-brown);
-    background-color: var(--color-white);
+  color: var(--color-brown);
+
+  background-color: var(--color-white);
 }

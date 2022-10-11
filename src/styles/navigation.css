@@ -48,4 +48,11 @@ SECTION NAVIGATION
   text-decoration: none;
 
   background-color: var(--color-light);
+
+  transition: all 0.3s;
+}
+
+.navigation .card-item a:hover {
+  background-color: #fff;
+  transform: scale(1.02);
 }
