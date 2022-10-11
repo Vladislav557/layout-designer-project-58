@@ -1,15 +1,15 @@
 /** CSS STYLE **/
-@import url("./header.css");
-@import url("./cognitive.css");
-@import url("./navigation.css");
-@import url("./ikea.css");
-@import url("./optimization.css");
-@import url("./distortion-of-novelty.css");
-@import url("./hyperbolic-depreciation.css");
-@import url("./errors-in-planning.css");
-@import url("./footer.css");
-@import url("./variables.css");
-@import url("./utils.css");
+@import "./header.css";
+@import "./cognitive.css";
+@import "./navigation.css";
+@import "./ikea.css";
+@import "./optimization.css";
+@import "./distortion-of-novelty.css";
+@import "./hyperbolic-depreciation.css";
+@import "./errors-in-planning.css";
+@import "./footer.css";
+@import "./variables.css";
+@import "./utils.css";
 
 @font-face {
   font-weight: 400;
