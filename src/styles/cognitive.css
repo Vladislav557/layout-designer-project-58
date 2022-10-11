@@ -16,7 +16,7 @@ SECTION COGNITINVE-DISTORTIONS
 }
 
 .channel-block p {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 
   color: #212529;
   font-size: 16px;
@@ -26,8 +26,8 @@ SECTION COGNITINVE-DISTORTIONS
 
 .video {
   position: relative;
-  top: 20px;
-  margin-bottom: -190px;
+  top: -10px;
+  margin-bottom: -200px;
 
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
