@@ -12,6 +12,10 @@ SECTION COGNITINVE-DISTORTIONS
   margin-bottom: 30px;
 }
 
+.channel-block p {
+  margin-bottom: 40px;
+}
+
 .video {
   margin-bottom: -200px;
 
