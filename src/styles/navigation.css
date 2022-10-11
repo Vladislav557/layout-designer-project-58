@@ -15,13 +15,13 @@ SECTION NAVIGATION
 
 .row {
   display: flex;
+  margin-bottom: 10px;
 }
 
 .card-item {
   width: 100%;
   height: 100%;
   margin-right: 20px;
-  margin-bottom: 15px;
 }
 
 .card-item h3 {
@@ -46,9 +46,8 @@ SECTION NAVIGATION
 }
 
 .card-item a {
-  box-sizing: content-box;
   display: block;
-  height: 323px;
+  height: 100%;
   padding: 24px;
 
   color: var(--color-base-dark);
