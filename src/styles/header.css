@@ -6,7 +6,7 @@ HEADER
 }
 
 header h1 {
-  margin-bottom: 170px;
+  margin-bottom: 190px;
   font-weight: 400;
 }
 
@@ -16,7 +16,7 @@ header h1 {
 
 .header-img {
   position: absolute;
-  top: -60px;
+  top: -50px;
   right: -270px;
   z-index: -100;
 
