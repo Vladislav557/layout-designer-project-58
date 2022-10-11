@@ -21,12 +21,13 @@ SECTION COGNITINVE-DISTORTIONS
   color: #212529;
   font-size: 16px;
   font-weight: 400;
+  line-height: 25.6px;
 }
 
 .video {
   position: relative;
-  top: 10px;
-  margin-bottom: -180px;
+  top: 20px;
+  margin-bottom: -190px;
 
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
