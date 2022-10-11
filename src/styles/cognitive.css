@@ -10,6 +10,9 @@ SECTION COGNITINVE-DISTORTIONS
 
 .cognitive-distortions h1 {
   margin-bottom: 30px;
+
+  font-weight: 400;
+  font-size: 60px;
 }
 
 .channel-block p {
