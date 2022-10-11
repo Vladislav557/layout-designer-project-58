@@ -23,6 +23,10 @@ header h1 {
   height: 525px;
 }
 
+.columns-2 p {
+  margin-bottom: 10px;
+}
+
 .columns-2 p:first-child {
   margin-top: 0;
   margin-bottom: 70px;
