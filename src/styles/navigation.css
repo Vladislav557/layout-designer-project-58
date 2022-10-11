@@ -33,10 +33,11 @@ SECTION NAVIGATION
 }
 
 .card-item a h2 {
-  font-size: 64px;
   font-weight: 400;
-  margin-bottom: 40px;
+  font-size: 64px;
   line-height: 1;
+
+  margin-bottom: 40px;
 }
 
 .card-title {
