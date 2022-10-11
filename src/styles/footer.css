@@ -75,6 +75,7 @@
   font-size: 12px;
 }
 
-.rule a {
+.rule a,
+.footer-info a {
   color: var(--color-blue);
 }
