@@ -3,7 +3,7 @@ SECTION NAVIGATION
 */
 
 .navigation {
-  padding-top: 125px;
+  padding-top: 135px;
 
   background-color: var(--color-base-dark);
 }
@@ -22,6 +22,10 @@ SECTION NAVIGATION
   height: 100%;
   margin-right: 20px;
   margin-bottom: 15px;
+}
+
+.card-item h3 {
+  margin-bottom: 20px;
 }
 
 .row .card-item:last-child {
