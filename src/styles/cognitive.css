@@ -18,12 +18,13 @@ SECTION COGNITINVE-DISTORTIONS
 .channel-block p {
   margin-bottom: 25px;
 
+  color: #212529;
   font-size: 16px;
   font-weight: 400;
 }
 
 .video {
-  margin-bottom: -200px;
+  margin-bottom: -205px;
 
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
